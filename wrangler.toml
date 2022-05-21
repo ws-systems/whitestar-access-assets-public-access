@@ -1,0 +1,11 @@
+name = "whitestar-access-assets-public-access"
+main = "src/index.ts"
+compatibility_date = "2022-05-21"
+
+account_id = "9b7fd46c9c7d159384c97ecf5f55cbae"
+workers_dev = true
+
+[[r2_buckets]]
+binding = 'ASSETS_BUCKET'
+bucket_name = 'whitestar-access-assets'
+
